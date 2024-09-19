@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susovan Maiti's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8d7d7;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            background-color: #fbfbdd;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #ffffff;
+        }
+        img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        footer {
+            text-align: center;
+            padding: 0rem;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Susovan Maiti's Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src=""C:\Users\susov\Documents\WhatsApp Image 2024-07-31 at 23.26.24_c64b903d.jpg"" alt="Susovan Maiti">
+            <p>Hello! I'm Susovan Maiti, I was born on 06th JANUARY, 2007 and I'm from uttarraybandh,Purba Madinipur. I have a no background in computer science but i have a deep interest in it</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Institution</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>BARHAT SAMBHUNATH BANIPITH (HIGH SCHOOL),Purba madinipur</td>
+                    <td>Higher-Secondary</td>
+                    <td>71.4%</td>
+                </tr>
+                <tr>
+                    <td>Ramakrishna Mission Vivekananda Centenary College,Rahara</td>
+                    <td>Bachelor in Computer Science</td>
+                    <td>TBD</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="susovanmaity879@gmail.com></a>susovanmaity879@gmail.com</p>
+            <p>Phone: (+91)6297703782</p>
+            <p>facebook: <a href="https://www.facebook.com/susovan311?mibextid=ZbWKwL">Susovan Maiti</a></p>
+            <p>instagram: <a href="https://www.instagram.com/invites/contact/?igsh=1sahc8gc60ynk&utm_content=uq6f8fr">Susovan Maiti</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Susovan Maiti. All rights reserved.</p>
+    </footer>
+</body>
+</html>
